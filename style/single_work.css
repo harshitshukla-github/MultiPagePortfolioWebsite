@@ -1,0 +1,56 @@
+.page-title {
+  padding: 5rem 16rem 1.25rem;
+  width: 100%;
+}
+
+.content {
+  padding: 2rem 10rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .work-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  width: 61rem;
+}
+
+.content .work-info .category {
+  color: #8695a4;
+  font-size: 1.25rem;
+}
+
+.content .work-info .year-badge {
+  background-color: #303f9f;
+  padding: 2px 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.content .work-info {
+  color: #8695a4;
+  font-size: 1.25rem;
+}
+
+.content > p {
+  width: 61rem;
+  font-size: 1rem;
+  margin: 1.25rem 0;
+}
+
+.content > img {
+  width: 61rem;
+  margin: 2rem 0;
+  border-radius: 1.25rem;
+}
+
+.content > h1,
+.content > h2,
+.content > h3 {
+  width: 61rem;
+}

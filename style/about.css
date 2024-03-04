@@ -1,0 +1,41 @@
+.page-title {
+  padding: 5rem 12.5rem 1.25rem;
+  width: 100%;
+}
+
+.content {
+  padding: 2rem 10rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .container{
+  background-color: #DBEDF2;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.875rem;
+  width: 61rem;
+  border-radius: 1.25rem;
+}
+
+.content .container img{
+  width: 20rem;
+  height: 16rem;
+  border-radius: 1.25rem;
+}
+
+.content .container h2{
+  margin-bottom: 1.625rem;
+}
+
+.content .container .about>p{
+  text-align: justify;
+}
+
+.content .container .about .email{
+  font-weight: bold;
+  margin-top: 1.875rem;
+  font-size: 1rem;
+}

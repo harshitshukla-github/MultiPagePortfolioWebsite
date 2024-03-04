@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+img {
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  padding: 1.25rem 10rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+nav .logo img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+nav .log a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3e3e3e;
+}
+
+nav .nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.selected {
+  color: #303f9f;
+}
+
+.main {
+  padding: 0 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  height: calc(100vh - 80px);
+}
+
+.main .info h1 {
+  font-size: 2.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.main .info p {
+  font-size: 1rem;
+  margin-bottom: 2.81rem;
+  width: 100%;
+}
+
+.main .info button {
+  padding: 0.625rem 1.875rem;
+  background: #303f9f;
+  border: none;
+  color: #fff;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.main .info button:hover {
+  background: #1a237e;
+}
+
+.main img {
+  width: 25rem;
+  border-radius: 8.75rem;
+}
+
+.recent {
+  padding: 3.75rem 9.25rem;
+  background-color: #dbedf2;
+}
+
+.recent .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.recent .header h4,
+.separator h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.recent .header a {
+  color: #303f9f;
+}
+
+.recent .posts {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.recent .posts .post-item {
+  background-color: #fff;
+  padding: 1.5rem;
+  width: 28.75rem;
+}
+
+.recent .posts .post-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.recent .posts .post-item .info {
+  display: flex;
+  gap: 0.65rem;
+  margin-bottom: 0.65rem;
+}
+
+.recent .posts .post-item .info h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.recent .posts .post-item {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.recent .posts .post-item p {
+  width: 25rem;
+}
+
+.separator {
+  padding: 2.5rem 9.25rem 0;
+}
+
+.separator h4 {
+  margin-bottom: 1.875rem;
+}
+
+.featured {
+  padding: 2.5rem 18rem 0;
+}
+
+.featured .item {
+  display: flex;
+  gap: 1.875rem;
+  margin-bottom: 1.875rem;
+  padding-bottom: 1.875rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.featured .item img {
+  width: 20rem;
+  height: 12.5rem;
+  border-radius: 6px;
+}
+
+.featured .item .details h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.featured .item .details .item-info {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.featured .item .details .item-info .year-badge {
+  background-color: #303f9f;
+  padding: 2px 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.featured .item .details .item-info h4 {
+  color: #8695a4;
+  font-size: 1.2rem;
+}
+
+.featured .item .details p {
+  width: 44rem;
+  text-align: justify;
+}
+
+footer {
+  padding: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .socials {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+footer .socials i {
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer .socials i:hover {
+  color: #303f9f;
+}
+
+footer p {
+  font-size: 1rem;
+}
+/*We have written all media-queries on the style.css*/
+@media screen and (max-width: 2160px){
+  nav{
+    padding: 2rem 5rem; 
+  }
+
+  .main{
+    padding: 0 5rem;
+  }
+
+  .main img{
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .recent{
+    padding: 5rem;
+  }
+
+  .featured, .separator{
+    padding: 2.5rem 3.75rem 0;
+  }
+
+  .page-title{
+    padding: 5rem 3.75rem 1.25rem;
+  }
+
+  .content .container img{
+      width: 28rem;
+      height: 28rem;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  nav{
+    padding: 1.25rem 3.75rem; 
+  }
+
+  .main{
+    padding: 0 3.75rem;
+  }
+
+  .recent{
+    padding: 3.75rem;
+  }
+
+  .featured, .separator{
+    padding: 2.5rem 3.75rem 0;
+  }
+
+  .page-title{
+    padding: 5rem 3.75rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  nav{
+    padding: 1.25rem 2.5rem; 
+  }
+
+  .main{
+    padding: 0 2.5rem;
+  }
+
+  .main img{
+    width: 21.25rem;
+    height: 21.25rem;
+  }
+
+  .recent{
+    padding: 2.5rem;
+  }
+
+  .featured, .separator{
+    padding: 2.5rem 2.5rem 0;
+  }
+
+  .featured .item .details p,
+  .works-list .item .details p{
+    width: 100%;
+  }
+
+  .page-title{
+    padding: 5rem 2.5rem 1.25rem;
+  }
+
+  .content .work-info,
+  .content>p,
+  .content>img,
+  .content>h1,
+  .content>h2,
+  .content>h3,
+  .content .post-list .post-item,
+  .content .container{
+      width: 100%;
+  }
+
+  .content .container img{
+      width: 16rem;
+      height: 16rem;
+  }
+
+  .content .container h2{
+      font-size: 1.5rem;
+      margin-bottom: 0.625rem;
+  }
+
+  .content .container .about>p{
+      font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px){
+  nav{
+    padding: 1.25rem; 
+  }
+
+  .main{
+    padding: 0 1.25rem;
+  }
+
+  .main img{
+    width: 18.75rem;
+    height: 18.75rem;
+  }
+
+  .main .info h1{
+    font-size: 2rem;
+  }
+  
+  .main .info p{
+    font-size: 1rem;
+  }
+  
+  .main .info button{
+    font-size: 1rem;
+    padding: 0.5rem 1.4rem;
+  }
+
+  .recent{
+    padding: 2.5rem 1.25rem;
+  }
+
+  .recent .posts .post-item{
+    width: 100%;
+  }
+
+  .recent .posts .post-item h3,
+  .content .post-list .post-item h3{
+    font-size: 1.25rem;
+  }
+
+  .recent .posts .post-item .info h5,
+  .content .post-list .post-item .info h5{
+    font-size: 1rem;
+  }
+
+  .recent .posts .post-item p{
+    width: 100%;
+    font-size: 1.25rem;
+  }
+
+  .featured, .separator{
+    padding: 2.5rem 1.25rem 0;
+  }
+
+  .featured .item,
+  .works-list .item{
+    flex-direction: column;
+    padding: 0 1.25rem 1.875rem;
+  }
+
+  .featured .item img,
+  .works-list .item img{
+    width: 100%;
+    height: auto;
+  }
+
+  .featured .item .details h3,
+  .works-list .details .item h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .featured .item .details .item-info .year-badge,
+  .works-list .item .details .item-info .year-badge{
+    font-size: 0.75rem;
+  }
+
+  .featured .item .details .item-info h4,
+  .works-list .item .details .item-info h4{
+    font-size: 0.8rem;
+  }
+
+  .featured .item .details p,
+  .works-list .item .details p{
+    font-size: 1rem;
+  }
+
+  .content{
+      padding: 1.875rem 1.25rem 3.75rem;
+  }
+
+  .content .container h2{
+      font-size: 1.25rem;
+  }
+
+  .content .container .about>p{
+      font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+    nav{
+        justify-content: center;
+    }
+
+    nav .logo{
+        display: none;
+    }
+
+    .main{
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 2.5rem 0;
+        height: auto;
+    }
+
+    .main .info h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .main .info p{
+        margin-bottom: 1rem;
+    }
+
+    .main .info button{
+        padding: 0.5rem 1.25rem;
+        font-size: 1rem;
+    }
+
+    .main img{
+        margin-top: 1.25rem;
+        width: 100%;
+        height: auto;
+        border-radius: 3rem;
+    }
+
+    .recent .posts,
+    .content .container{
+        flex-direction: column;
+    }
+
+    .content .container img{
+        width: 100%;
+        height: auto;
+    }
+
+}

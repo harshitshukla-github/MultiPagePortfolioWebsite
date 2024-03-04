@@ -1,0 +1,58 @@
+.page-title {
+  padding: 5rem 15rem 1.25rem;
+  width: 100%;
+}
+
+.content {
+  padding: 2rem 10rem 4rem;
+}
+
+.works-list .item {
+  display: flex;
+  gap: 1.875rem;
+  margin-bottom: 1.875rem;
+  padding-bottom: 1.875rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.works-list .item img {
+  width: 20rem;
+  height: 12.5rem;
+  border-radius: 6px;
+}
+
+.works-list .item h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.works-list .item .details .item-info {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.works-list .item .details .item-info .year-badge {
+  background-color: #303f9f;
+  padding: 2px 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.works-list .item .details .item-info h4 {
+  color: #8695a4;
+  font-size: 1.2rem;
+}
+
+.works-list .item .details .item-info h4 {
+  color: #8695a4;
+  font-size: 1.2rem;
+}
+
+.works-list .item .details p {
+  width: 44rem;
+  text-align: justify;
+}
