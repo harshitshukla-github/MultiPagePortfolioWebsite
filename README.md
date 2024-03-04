@@ -1,27 +1,30 @@
-# HTML, CSS, JS (Auto Refresh)
+# Project Title: Web Design Collection
 
-This template is a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
+This repository contains a collection of web design works showcasing various projects, including dashboard designs, games, and UI/UX design concepts. Utilizing HTML, CSS, and JavaScript, each piece demonstrates a blend of creativity and technical application.
 
-Hit run to see this project in action. It will auto-refresh as you edit the HTML, CSS and JS files.
+## Description
 
-## Disable Auto Refresh
+The `Web Design Collection` is a curated showcase of web projects designed and developed by Harshit S. It features an assortment of works ranging from interactive games to user-friendly dashboard designs. This collection serves as a testament to the synergy between aesthetically pleasing design and functional, user-centric development practices.
 
-If you find the auto refresh getting in your way, go to [vite.config.js](./vite.config.js) and update it set `hmr` to false to disable hot module reloading (HMR). The full config will look like this:
+## Features
 
-```js
-export default defineConfig({
-  plugins: [],
-  server: {
-    host: "0.0.0.0",
-    hmr: false, // Change this line to `false` disable auto-refreshing.
-  },
-});
-```
+- **Responsive Web Designs**: Each design is responsive, ensuring a seamless experience across all devices.
+- **Interactive Elements**: Utilizing JavaScript to breathe life into static designs, the projects include interactive features that engage users.
+- **Modern UI/UX**: Focus on current trends in UI/UX to provide intuitive navigation and aesthetically pleasing layouts.
+- **Lightweight and Fast**: Optimized assets and code for quick load times and smooth performance across various browsers and devices.
 
-## Packages
+## Getting Started
 
-Because this template uses Vite to build your code, you can add install and use npm packages. Simple open the Packager tool to search and manage your packages.
+To get a local copy up and running follow these simple steps.
 
-## Learn More
+### Prerequisites
 
-Check out [the vite docs](https://vitejs.dev) to learn more about configuring a frontend application.
+Before you begin, ensure you have the following installed:
+- A modern web browser like Chrome, Firefox, or Safari.
+- A code editor, such as VSCode, Sublime Text, or Atom.
+
+### Installation
+
+1. Clone the repo
+```sh
+git clone https://github.com/your_username_/Project-Name.git
