@@ -27,4 +27,4 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/harshitshukla-github/MultiPagePortfolioWebsite
